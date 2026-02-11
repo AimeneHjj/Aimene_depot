@@ -3,6 +3,9 @@ title: 'Recherche documentaire : Santé, Biohacking et Numérique '
 author: "HEJJAJ Aïmène"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
+  pdf_document:
+    toc: true
+    toc_depth: '3'
   html_document:
     code_folding: hide
     fig_caption: true
@@ -12,9 +15,6 @@ output:
     toc_float:
       collapsed: true
       smooth_scroll: true
-  pdf_document:
-    toc: true
-    toc_depth: '3'
 bibliography: Biblio/bibOPEN.bib
 csl: "biblio/isara-iso-690.csl"
 ---
@@ -25,7 +25,7 @@ library(knitr)
 library(tinytex)
 ```
 
-```{r logo, echo=FALSE, out.width = '50%', fig.align = "center", fig.cap="Fig 1 : Disponible à l'adresse https://www.global.surgery/fr/actualites/chirurgie-medecine-esthetique/biohacking-lausanne"}
+```{r logo, echo=FALSE, out.width = '50%', fig.align = "center", fig.cap="Disponible à l'adresse https://www.global.surgery/fr/actualites/chirurgie-medecine-esthetique/biohacking-lausanne"}
 knitr::include_graphics("biohacking.jpeg")
 ```
 
@@ -51,7 +51,7 @@ Ces problématique qui se rejoingent seront au cœur de ma recherche, explorant 
 
 Depuis l’émergence d’internet, les nouvelles technologies se sont progressivement développées autour du bien-être, notamment à travers certaines périodes clés. D’abord avec les ordinateurs et le développement de la communication , les sciences comme la médecine, les statistiques et l'ingénierie ont pu mener des études plus approfondies dans la recherche de différents sujets impliquant de près ou de loin la santé (il est à noter que tout au long de ce document lorsque je parle de santé, j’inclue la santé physique, intellectuel et psychique), ensuite les smartphones, devenus omniprésents, ont ouvert la voie aux applications de santé et de bien-être. Les réseaux sociaux ont permis plus que jamais la circulation et l’échange de d’informations, les capteurs miniaturisés ont permis l'émergence des objets connectés portables tels que des montres ou encore des lits connectés. Tout cela combiné avec l'intelligence artificielle et nous avons désormais accès à des analyses personnalisées et des recommandations adaptées à chaque individu.[@andrew_steele_biohacking_2023,]
 
-```{r logo2, echo=FALSE, out.width = '30%', fig.align = "center", fig.cap="Fig 2 : Disponible à l'adresse https://www.samsung.com/fr/apps/samsung-health/"}
+```{r logo2, echo=FALSE, out.width = '30%', fig.align = "center", fig.cap="Disponible à l'adresse https://www.samsung.com/fr/apps/samsung-health/"}
 knitr::include_graphics("BienEtreNumerique.jpg")
 ```
 
@@ -73,7 +73,7 @@ Le numérique a révolutionné l'accès au savoir en santé. Tutoriels, recherch
 
 # Partie 2 : Comment ne pas tomber dans l'abrutissement et la dépendance ?
 
-```{r logo3, echo=FALSE, out.width = '30%', fig.align = "right", fig.cap="Fig 3 : Disponible à l'adresse https://www.radiofrance.fr/franceculture/podcasts/hashtag/je-me-sens-en-insecurite-sans-mon-telephone-4782332"}
+```{r logo3, echo=FALSE, out.width = '30%', fig.align = "right", fig.cap="Disponible à l'adresse https://www.radiofrance.fr/franceculture/podcasts/hashtag/je-me-sens-en-insecurite-sans-mon-telephone-4782332"}
 knitr::include_graphics("dependance.jpg")
 ```
 
@@ -96,7 +96,7 @@ S'en remettre entièrement aux machines présente des dangers. L'IA manque d’h
 
 # Conclusion :  Quel serait l'état d'esprit à avoir selon moi ?
 
-```{r logo4, echo=FALSE, out.width = '30%', fig.align = "right", fig.cap="Fig 4 : Disponible à l'adresse https://commentjaichangedevie.fr/tu-veux-ou-tu-veux-pas/"}
+```{r logo4, echo=FALSE, out.width = '30%', fig.align = "right", fig.cap="Disponible à l'adresse https://commentjaichangedevie.fr/tu-veux-ou-tu-veux-pas/"}
 knitr::include_graphics("etatdesprit.png")
 ```
 
@@ -137,12 +137,12 @@ En poussant la réflexion plus loin, je ne peux pas m’empêcher de penser au t
 
 Ces fictions posent une question que le biohacking actuel commence à rendre concrète : jusqu'où peut-on aller dans l'optimisation et l'augmentation de soi ? Les implants pour oreilles rendent déjà l'ouïe aux sourds. Les prothèses bioniques dépassent parfois les performances des membres biologiques. Des puces RFID sont implantées pour ouvrir des portes ou payer ses achats. Où tracer la ligne entre thérapie et amélioration, entre soin et transformation ?[@katsuhiro_otomo_akira_1988,] [@masamune_shirow_ghost_1989,]
 
-```{r logo5, echo=FALSE, out.width = '30%', fig.align = "center", fig.cap="Fig 5 : Disponible à l'adresse https://www.gamekyo.com/group_article57080.html"}
-knitr::include_graphics("Akira.png")
+
+```{r logo5, echo=FALSE, out.width = '60%', fig.align = "center", fig.cap="Disponible à l'adresse https://www.sanctuary.fr/article/36161/"}
+knitr::include_graphics("Akira.jpg")
 ```
 
 # Référence
-
 
 ## Iagraphie
 Utilisation de Claude.ai pour la recherche de source et pour la correction de faute d'orthographe
